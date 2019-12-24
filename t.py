@@ -28,7 +28,7 @@ def main(url):
     req = urllib.request.Request(url)
 
     req.add_header("User-Agent", randdom_header)
-    req.add_header("Cookie","searchGuide=sg; __utmz=68909069.1564586690.7.3.utmcsr=moni.10jqka.com.cn|utmccn=(referral)|utmcmd=referral|utmcct=/zyl.shtml; spversion=20130314; user=MDptb180MjQ1OTY0NTM6Ok5vbmU6NTAwOjQzNDU5NjQ1Mzo3LDExMTExMTExMTExLDQwOzQ0LDExLDQwOzYsMSw0MDs1LDEsNDA7MSwxLDQwOzIsMSw0MDszLDEsNDA7NSwxLDQwOzgsMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEsNDA6MjQ6Ojo0MjQ1OTY0NTM6MTU3Mjg0MjQ1OTo6OjE1MTExNzU5NjA6NjA0ODAwOjA6MWQ3NjA1NDM3MzZmZjZiZjJlZTVmMmMwMzFkMmYyNWZlOmRlZmF1bHRfMjox; userid=424596453; u_name=mo_424596453; escapename=mo_424596453; ticket=a97b1e67af54a43ed5f07ea4b83041a3; Hm_lvt_a9190969a435c4c490361fdf65267856=1572583100,1572842086,1572842459,1572929130; Hm_lvt_78c58f01938e4d85eaf619eae71b4ed1=1572525479,1572583100,1572842086,1572929130; __utmc=68909069; historystock=002488%7C*%7C000933%7C*%7C000005%7C*%7C000603; v=AvwvEDHEjU8ujrmTeSjbT1Xfy5Gt9aAfIpm049Z9COfKoZKH_gVwr3KphHcl; __utma=68909069.1680085010.1562858905.1572929130.1572932328.41; __utmt=1; Hm_lpvt_a9190969a435c4c490361fdf65267856=1572932488; Hm_lpvt_78c58f01938e4d85eaf619eae71b4ed1=1572932488; __utmb=68909069.2.10.1572932328")
+    req.add_header("Cookie","searchGuide=sg; __utmz=68909069.1564586690.7.3.utmcsr=moni.10jqka.com.cn|utmccn=(referral)|utmcmd=referral|utmcct=/zyl.shtml; spversion=20130314; user=MDptb180MjQ1OTY0NTM6Ok5vbmU6NTAwOjQzNDU5NjQ1Mzo3LDExMTExMTExMTExLDQwOzQ0LDExLDQwOzYsMSw0MDs1LDEsNDA7MSwxLDQwOzIsMSw0MDszLDEsNDA7NSwxLDQwOzgsMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEsNDA6MjQ6Ojo0MjQ1OTY0NTM6MTU3NjA2OTc3Mzo6OjE1MTExNzU5NjA6NjA0ODAwOjA6MTVkNWVjMDZhMjM1YmZkYWMxZmQwMWM4ODdhM2FjNGU1OmRlZmF1bHRfMzox; userid=424596453; u_name=mo_424596453; escapename=mo_424596453; ticket=2f03f3d7f0956bc265352c213e408feb; historystock=002504%7C*%7C603077%7C*%7C600712%7C*%7C600779; v=An6tnp8Or95hOvv6MmJelTpByZ_Dv0Ip1IP2FyiH6kG8yxAJkE-SSaQTRiH7; Hm_lvt_78c58f01938e4d85eaf619eae71b4ed1=1576149938,1576236282,1576495749,1576551225; Hm_lpvt_78c58f01938e4d85eaf619eae71b4ed1=1576551225; Hm_lvt_a9190969a435c4c490361fdf65267856=1576149938,1576236282,1576495749,1576551225; Hm_lpvt_a9190969a435c4c490361fdf65267856=1576551225; __utma=68909069.1680085010.1562858905.1576495748.1576551226.87; __utmc=68909069; __utmt=1; __utmb=68909069.1.10.1576551226")
     req.add_header("GET", url)
 
     response = urllib.request.urlopen(req)
@@ -185,7 +185,7 @@ if __name__ == '__main__':
     # 一个月排行榜
     #url = "http://moni.10jqka.com.cn/yyl.shtml"
     #
-    # url = "http://moni.10jqka.com.cn/zyl.shtml"
+    #url = "http://moni.10jqka.com.cn/zyl.shtml"
     # 段位
-    # url = "http://moni.10jqka.com.cn/dw.shtml"
+    #url = "http://moni.10jqka.com.cn/dw.shtml"
     main(url)
