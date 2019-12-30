@@ -19,8 +19,7 @@ db_user = 'root'
 db_pass = '123456'
 db_name = 'tonghuashun'
 db_port = 3307
-db_table_name2 = str(datetime.datetime.now().year)+"_"+str(datetime.datetime.now().month)+"_"+str(datetime.datetime.now().day)+"_"+str(datetime.datetime.now().hour)+"_"+str(datetime.datetime.now().minute)+"_"+str(datetime.datetime.now().second)
-db_table_name = db_table_name2
+db_table_name = str(datetime.datetime.now().year)+"_"+str(datetime.datetime.now().month)+"_"+str(datetime.datetime.now().day)+"_"+str(datetime.datetime.now().hour)+"_"+str(datetime.datetime.now().minute)+"_"+str(datetime.datetime.now().second)
 
 def main(url):
     randdom_header = random.choice(my_headers)
@@ -181,9 +180,9 @@ if __name__ == '__main__':
     # 排行榜数据
     #url = "http://moni.10jqka.com.cn/paihang.shtml"
     # 成功
-    url = "http://moni.10jqka.com.cn/xgcg.shtml"
+    #url = "http://moni.10jqka.com.cn/xgcg.shtml"
     # 一个月排行榜
-    #url = "http://moni.10jqka.com.cn/yyl.shtml"
+    url = "http://moni.10jqka.com.cn/yyl.shtml"
     #
     #url = "http://moni.10jqka.com.cn/zyl.shtml"
     # 段位
